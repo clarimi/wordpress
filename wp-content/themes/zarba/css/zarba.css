@@ -1,0 +1,219 @@
+:root {
+    --black:#000;
+    --white:#fff;
+    --primary-color: #F0A888;
+    --secondary-color: #e4ecee;
+    }
+
+html {
+    font-size:16px;
+    scroll-behavior: smooth;
+    }
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Kaisei Opti', serif;
+
+    font-size:1rem; /*1rem=16px* 2rem=32px... tutto il sito scala in proporzione -> 18px=1.125rem*/
+    line-height:1.4; /* 140% della dimensione del font */
+    font-weight:400;
+    text-rendering: optimizeSpeed;
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    margin: 0;
+    padding: 0;
+
+    color: var(--black);
+}
+
+* {
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*---*/
+
+.navbar.bg-primary {
+    background-color: #e4ecee !important;
+    margin: 0px;
+    padding: 0px;  
+    height: 3.5rem;
+}
+
+.navbar-brand {
+    font-family: 'IBM Plex Mono', monospace; 
+    color: #000 !important;
+    margin: auto ;
+}
+
+.hero--title {
+    font-family: 'IBM Plex Mono', monospace; 
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 25;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    padding: 8rem;
+    margin-top: 8rem;
+}
+
+@media (max-width: 40em) {
+    .hero--title {
+    padding: 2rem;
+    margin-top: 6rem;
+    }
+}
+
+@media (min-width: 40em) {
+    .hero--title {
+    padding: 6rem;
+    margin-top: 6rem;
+    }
+}
+
+@media (min-width: 60em) {
+    .hero--title {
+    padding: 7rem;
+    margin-top: 14rem;
+    }
+}
+
+.hero-image {
+    opacity: 1;
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    will-change:auto;
+}
+
+.hero-image:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.image {
+    margin: 4rem auto;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease;
+    will-change:auto;
+}
+
+.image:hover {
+    opacity: 0.7;
+    transform: scale(1.2);
+}
+
+h2.title {
+    font-family: 'IBM Plex Mono', monospace; 
+    font-size: 1.4rem;
+    color: var(--black);
+    text-align: center;
+    opacity: 1;
+}
+
+h2.title:hover {
+    opacity: 1;
+}
+
+i {
+    color: var(--black);
+    font-size: 24px;
+    padding: 0.2rem;
+}
+
+.thanks {
+    font-family: 'IBM Plex Mono', monospace; 
+    text-align: center;
+    padding: 8rem;
+    background: rgb(9,9,121);
+    background: linear-gradient(0deg, rgba(228,236,238,1) 1%, rgba(255,255,255,1) 80%);
+}
+
+.thanks h3{
+    padding-top: 2rem;
+}
+
+.footer {
+    background-color: var(--secondary-color);
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.wp-block-quote {
+    font-family: 'Kaisei Opti', serif;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    height: 30vh;
+    margin: auto;
+    max-width: 40em;
+    margin-top: 8rem;
+}
+
+
+@media (max-width: 40em) {
+    .wp-block-quote {
+    font-size: 0.8rem;
+    }
+}
+
+/* content-work */
+
+.entry-header {
+    font-family: 'Kaisei Opti', serif;
+    padding: 3.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+.see {
+    font-family: 'IBM Plex Mono', monospace; 
+    text-align: center;
+    padding: 4rem;
+    border-top: 1px solid #e4ecee;
+    margin: 0 auto;
+}
+
+.see h3{
+    text-align: center;
+    padding-top: 2rem;
+    margin: 0 auto;
+}
+
+@media (max-width: 40em) {
+    .see h3 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    }
+}
+
+.plant {
+    width: 40px;
+    padding-left: 0.5rem;
+}
+
+/* Scroll Magic */
+
+.animation {
+    position: relative;
+  }
+
+.flower {
+    position: absolute;
+    width: 80px;
+    z-index: 999;
+    top: 10%;
+    left: 0%;
+  }
+  
+
+
+  
+  
