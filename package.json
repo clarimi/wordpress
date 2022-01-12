@@ -1,0 +1,22 @@
+{
+  "name": "wordpress",
+  "version": "1.0.0",
+  "description": "<!DOCTYPE html>\r <html lang=\"it\">\r <head>\r \t<meta name=\"viewport\" content=\"width=device-width\" />\r \t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r \t<title>WordPress &#8250; ReadMe</title>\r \t<link rel=\"stylesheet\" href=\"wp-admin/css/install.css?ver=20100228\" type=\"text/css\" />\r </head>\r <body>\r <h1 id=\"logo\">\r \t<a href=\"https://wordpress.org/\"><img alt=\"WordPress\" src=\"wp-admin/images/wordpress-logo.png\" /></a>\r </h1>\r <p style=\"text-align: center\">Piattaforma di Editoria Personale Semantica</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarimi/wordpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarimi/wordpress/issues"
+  },
+  "homepage": "https://github.com/clarimi/wordpress#readme",
+  "devDependencies": {
+    "parcel": "^2.1.1"
+  }
+}
